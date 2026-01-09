@@ -5,7 +5,7 @@ import logo from "../../assets/logo1.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0F0F0F] text-white pt-12 relative overflow-hidden font-['Space_Grotesk','ui-sans-serif']">
+    <footer className="bg-[#0F0F0F] text-white pt-12 relative overflow-hidden font-['Bricolage_Grotesque','ui-sans-serif']">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Top Section: 3 Columns */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -17,7 +17,7 @@ const Footer = () => {
               <img 
                 src={logo}
                 alt="Dwaraka Taxi Logo" 
-                className="w-full h-auto object-contain rounded-[17px]"
+                className="w-full object-contain rounded-[17px]"
               />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
@@ -58,7 +58,7 @@ const Footer = () => {
             
             <div className="pt-4">
               <p className="text-yellow-400 font-medium">
-                © Dwaraka Taxi. All rights reserved
+                © Karthikeya Travels. All rights reserved
               </p>
             </div>
           </div>
