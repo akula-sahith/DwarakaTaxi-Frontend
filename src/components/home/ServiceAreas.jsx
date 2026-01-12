@@ -3,17 +3,12 @@ import { ArrowUpRight } from "lucide-react";
 import Hline from "../../assets/hdesign.png";
 const ServiceAreasBooking = () => {
   const locations = [
-    "Andhra pradesh",
-    "Telangana",
-    "Karnataka",
-    "Kerala",
-    "Tamilnadu",
-    "Pudicherry",
-    "Andhra pradesh",
-    "Telangana",
-    "Karnataka",
-    "Kerala",
-    "Tamilnadu",
+    "Hyderabad",
+    "Vijayawada",
+    "Vizag",
+    "Tirupati",
+    "Guntur",
+    "Secunderabad",
   ];
 
   return (
@@ -32,7 +27,7 @@ const ServiceAreasBooking = () => {
 
           {/* Main Heading */}
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-yellow-400 mb-4">
-            We Serve Across South India
+            We Serve Across Andhra Pradesh & Telangana
           </h2>
 
           {/* Subheading */}
