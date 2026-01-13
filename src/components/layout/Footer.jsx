@@ -33,14 +33,14 @@ const Footer = () => {
             <h3 className="text-yellow-400 font-bold text-lg mb-4 md:mb-6">Quick Links</h3>
             <div className="grid grid-cols-2 gap-4 text-gray-300 text-sm">
               <ul className="space-y-3">
-                <li className="hover:text-yellow-400 cursor-pointer transition-colors">Home</li>
-                <li className="hover:text-yellow-400 cursor-pointer transition-colors">About Us</li>
-                <li className="hover:text-yellow-400 cursor-pointer transition-colors">Services</li>
+                <li className="hover:text-yellow-400 cursor-pointer transition-colors"><a href='/'>Home</a></li>
+                <li className="hover:text-yellow-400 cursor-pointer transition-colors"><a href='/about'>About Us</a></li>
+                <li className="hover:text-yellow-400 cursor-pointer transition-colors"><a href='/services'>Services</a></li>
               </ul>
               <ul className="space-y-3">
-                <li className="hover:text-yellow-400 cursor-pointer transition-colors">Contact Us</li>
-                <li className="hover:text-yellow-400 cursor-pointer transition-colors">Tariff</li>
-                <li className="hover:text-yellow-400 cursor-pointer transition-colors">Terms & Conditions</li>
+                <li className="hover:text-yellow-400 cursor-pointer transition-colors"><a href='/contact'>Contact Us</a></li>
+                <li className="hover:text-yellow-400 cursor-pointer transition-colors"><a href='/tariff'>Tariff</a></li>
+                {/* <li className="hover:text-yellow-400 cursor-pointer transition-colors">Terms & Conditions</li> */}
               </ul>
             </div>
           </div>

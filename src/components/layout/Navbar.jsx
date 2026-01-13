@@ -12,7 +12,6 @@ const Navbar = ({ variant = "solid" }) => {
     { path: "/services", label: "Services" },
     { path: "/contact", label: "Contact" },
     { path: "/tariff", label: "Tariff" },
-    { path: "/terms", label: "Terms&Conditions" },
   ];
 
   return (

@@ -55,13 +55,13 @@ function App() {
           }
         />
 
-        <Route
+        {/* <Route
           path="/terms"
           element={
             <MainLayout>
               <TandC/>
             </MainLayout>
-          } />
+          } /> */}
       </Routes>
     </BrowserRouter>
   );
