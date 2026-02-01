@@ -3,7 +3,7 @@ import { ArrowRight, Repeat } from 'lucide-react';
 import Sedan from "../../assets/sedan.png";
 import Suv from "../../assets/suv.png";
 import Innova from "../../assets/innova.png";
-import Crysta from "../../assets/Crysta.png";
+import Crysta from "../../assets/crysta.png";
 const CarRentalComponent = () => {
   const [tripType, setTripType] = useState('oneway');
 
