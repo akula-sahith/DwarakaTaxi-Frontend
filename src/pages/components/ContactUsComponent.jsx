@@ -35,7 +35,7 @@ export default function ContactSection() {
       icon: Phone,
       title: "CALL US",
       description: "Have a quick question or need instant booking help? Call our support team anytime.",
-      contactInfo: "+91 6281082164",
+      contactInfo: "+91 9346219126",
       isEmail: false,
       isWhatsApp: false
     },
