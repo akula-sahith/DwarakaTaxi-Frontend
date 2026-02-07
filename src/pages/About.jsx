@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <SolidPageHeader
-  title="Karthikeya Travels – One Way Outstation Drop Services"
+  title="Kartikeya Travels – One Way Outstation Drop Services"
   subtitle="Your journey comes first. Travel comfortably, reliably, and on time with Karthikeya Travels."
 />
 

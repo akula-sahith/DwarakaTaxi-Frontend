@@ -18,7 +18,7 @@ export default function TaxiServices() {
     {
       icon: MapPin,
       title: "Address Pickup",
-      description: "Karthikeya Travels provides convenient address pickup, ensuring a smooth and hassle-free ride from your doorstep."
+      description: "Kartikeya Travels provides convenient address pickup, ensuring a smooth and hassle-free ride from your doorstep."
     },
     {
       icon: Repeat,
@@ -28,12 +28,12 @@ export default function TaxiServices() {
     {
       icon: Clock,
       title: "24×7 service",
-      description: "Karthikeya Travels offers 24/7 service, providing reliable rides anytime you need them, day or night."
+      description: "Kartikeya Travels offers 24/7 service, providing reliable rides anytime you need them, day or night."
     },
     {
       icon: Plane,
       title: "Airport Pickup and Drop",
-      description: "Enjoy hassle-free airport transfers with Dwaraka Taxi, ensuring timely and reliable transportation to and from the airport."
+      description: "Enjoy hassle-free airport transfers with Kartikeya Travels, ensuring timely and reliable transportation to and from the airport."
     },
     {
       icon: Clipboard,

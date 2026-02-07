@@ -6,7 +6,7 @@ const TandC = () => {
     <>
       <SolidPageHeader
   title="Terms & Conditions"
-  subtitle="Your journey comes first. Travel comfortably, reliably, and on time with Dwaraka Taxi."
+  subtitle="Your journey comes first. Travel comfortably, reliably, and on time with Kartikeya Travels."
 />
 
 
