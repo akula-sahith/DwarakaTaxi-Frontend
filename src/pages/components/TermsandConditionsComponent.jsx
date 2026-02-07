@@ -32,7 +32,7 @@ const TermsPoliciesComponent = () => {
 
               <div className="flex justify-between items-start">
                 <div>
-                  <div className="font-semibold text-gray-900">SUV Ertiga</div>
+                  <div className="font-semibold text-gray-900">Ertiga</div>
                   <div className="text-xs text-gray-500">Family</div>
                 </div>
                 <div className="text-right">
@@ -43,7 +43,7 @@ const TermsPoliciesComponent = () => {
 
               <div className="flex justify-between items-start">
                 <div>
-                  <div className="font-semibold text-gray-900">SUV Innova</div>
+                  <div className="font-semibold text-gray-900">Innova</div>
                   <div className="text-xs text-gray-500">Premium</div>
                 </div>
                 <div className="text-right">
@@ -70,7 +70,7 @@ const TermsPoliciesComponent = () => {
               </div>
 
               <div className="flex justify-between items-center">
-                <div className="font-medium text-gray-700">SUV</div>
+                <div className="font-medium text-gray-700">Ertiga</div>
                 <div className="font-semibold text-gray-900">₹250/hr</div>
               </div>
 
@@ -157,8 +157,7 @@ const TermsPoliciesComponent = () => {
           <div className="bg-white rounded-2xl p-6 shadow-sm border-2 border-gray-100">
             <div className="mb-4">
               <span className="bg-yellow-400 text-black text-xs font-semibold px-4 py-1 rounded-full">
-                Hyderabad
-              </span>
+                Andhra Pradesh & Telangana              </span>
             </div>
 
             <div className="space-y-3">
