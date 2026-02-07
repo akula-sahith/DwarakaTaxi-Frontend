@@ -24,7 +24,7 @@ const AboutPromiseComponent = () => {
           {/* Text Content */}
           <div className="space-y-3 sm:space-y-4 text-gray-800 leading-relaxed">
             <p className="text-sm sm:text-base lg:text-lg">
-              At <span className="font-semibold">Karthikeya Travels</span>, your comfort and convenience are our priority. We provide dependable intercity taxi services across South India – connecting cities, towns, and people with safety and style. Our fleet of clean, well-maintained cars and professional drivers ensures you enjoy every mile of your journey, whether it's a business trip, a weekend getaway, or an airport transfer.
+              At <span className="font-semibold">Kartikeya Travels</span>, your comfort and convenience are our priority. We provide dependable intercity taxi services across South India – connecting cities, towns, and people with safety and style. Our fleet of clean, well-maintained cars and professional drivers ensures you enjoy every mile of your journey, whether it's a business trip, a weekend getaway, or an airport transfer.
             </p>
             <p className="text-sm sm:text-base lg:text-lg">
               Travel made simple, safe, and affordable – that's our promise at Kartikeya Travels. We're your trusted travel companion across Andhra Pradesh and Telangana. From one-way rides to round trips, our experienced drivers and comfortable vehicles make every journey smooth and stress-free.

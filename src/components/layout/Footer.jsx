@@ -88,7 +88,7 @@ const Footer = () => {
             
             <div className="pt-2 md:pt-2">
               <p className="text-yellow-400 font-medium text-sm md:text-base">
-                © Karthikeya Travels. All rights reserved
+                © Kartikeya Travels. All rights reserved
               </p>
             </div>
           </div>

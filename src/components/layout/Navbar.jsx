@@ -25,7 +25,7 @@ const Navbar = ({ variant = "solid" }) => {
             <img
               src={logo}
               alt="Dwaraka Taxi Logo"
-              className="h-34 w-auto object-contain" 
+              className="h-45 w-auto object-contain" 
             />
           </NavLink>
         </div>
