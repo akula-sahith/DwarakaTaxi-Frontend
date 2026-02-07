@@ -51,7 +51,7 @@ export default function ContactSection() {
       icon: Mail,
       title: "MAIL US",
       description: "Send us your queries or feedback. We'll get back to you as soon as possible.",
-      contactInfo: "rameshponguletil3@gmail.com",
+      contactInfo: "kondalugatta14@gmail.com",
       isEmail: true,
       isWhatsApp: false
     }

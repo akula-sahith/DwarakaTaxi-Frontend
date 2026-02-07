@@ -40,6 +40,7 @@ const Footer = () => {
               <ul className="space-y-3">
                 <li className="hover:text-yellow-400 cursor-pointer transition-colors"><a href='/contact'>Contact Us</a></li>
                 <li className="hover:text-yellow-400 cursor-pointer transition-colors"><a href='/tariff'>Tariff</a></li>
+                <li className="hover:text-yellow-400 cursor-pointer transition-colors"><a href='/terms'>Terms and Conditions</a></li>
                 {/* <li className="hover:text-yellow-400 cursor-pointer transition-colors">Terms & Conditions</li> */}
               </ul>
             </div>

@@ -145,7 +145,7 @@ const TermsPoliciesComponent = () => {
           </div>
           <div>
             <h3 className="text-white font-semibold text-lg mb-1">Complimentary Services</h3>
-            <p className="text-gray-300 text-sm">No extra charge for tea and food breaks. Free Bangalore airport pickup/drop service.</p>
+            <p className="text-gray-300 text-sm">No extra charge for tea and food breaks.</p>
           </div>
         </div>
 
@@ -157,7 +157,7 @@ const TermsPoliciesComponent = () => {
           <div className="bg-white rounded-2xl p-6 shadow-sm border-2 border-gray-100">
             <div className="mb-4">
               <span className="bg-yellow-400 text-black text-xs font-semibold px-4 py-1 rounded-full">
-                Bangalore
+                Hyderabad
               </span>
             </div>
 
@@ -195,7 +195,7 @@ const TermsPoliciesComponent = () => {
             <div className="bg-white rounded-2xl p-6 shadow-sm border-2 border-gray-100">
               <div className="mb-4">
                 <span className="bg-yellow-400 text-black text-xs font-semibold px-4 py-1 rounded-full">
-                  Tamilnadu, Telangana, Andhra Pradesh
+                  Telangana and Andhra Pradesh
                 </span>
               </div>
 
@@ -216,7 +216,7 @@ const TermsPoliciesComponent = () => {
             </div>
 
             {/* Kerala Card */}
-            <div className="bg-white rounded-2xl p-6 shadow-sm border-2 border-gray-100">
+            {/* <div className="bg-white rounded-2xl p-6 shadow-sm border-2 border-gray-100">
               <div className="mb-4">
                 <span className="bg-yellow-400 text-black text-xs font-semibold px-4 py-1 rounded-full">
                   Kerala
@@ -230,7 +230,7 @@ const TermsPoliciesComponent = () => {
                 </div>
                 <span className="text-sm text-gray-500">Operating hours</span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
