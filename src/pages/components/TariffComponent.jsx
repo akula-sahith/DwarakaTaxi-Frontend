@@ -251,9 +251,9 @@ const CarRentalComponent = () => {
                             <p className="text-2xl font-bold mt-2">
                               ₹{price.toLocaleString()}
                             </p>
-                            <p className="text-xs text-gray-500 mt-1">
+                            {/* <p className="text-xs text-gray-500 mt-1">
                               Including Toll & Driver price
-                            </p>
+                            </p> */}
                           </div>
                         ))}
                       </div>
