@@ -1,6 +1,6 @@
 import React from 'react';
 import { Phone, MessageCircle, Mail } from 'lucide-react';
-
+import Owner from "../../assets/owner.jpeg";
 const ContactCard = ({ icon: Icon, title, description, contactInfo, isEmail, isWhatsApp }) => {
   const getHref = () => {
     if (isEmail) return `mailto:${contactInfo}`;
@@ -60,6 +60,16 @@ export default function ContactSection() {
   return (
     <div className="bg-gray-50 py-8 sm:py-12 px-4 font-['Bricolage_Grotesque','ui-sans-serif']">
       <div className="max-w-6xl mx-auto">
+
+        {/* OWNER IMAGE */}
+        <div className="flex justify-center mb-6 sm:mb-8">
+          <img
+            src={Owner}
+            alt="Owner"
+            className="w-48 h-48 sm:w-56 sm:h-56 rounded-full object-cover shadow-md border-4 border-yellow-500 ring-2 ring-yellow-300"
+          />
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
           {contacts.map((contact, index) => (
             <ContactCard
