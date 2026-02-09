@@ -1,6 +1,7 @@
 import React from 'react';
 import { Phone, MessageCircle, Mail } from 'lucide-react';
 import Owner from "../../assets/owner.jpeg";
+
 const ContactCard = ({ icon: Icon, title, description, contactInfo, isEmail, isWhatsApp }) => {
   const getHref = () => {
     if (isEmail) return `mailto:${contactInfo}`;
@@ -61,13 +62,44 @@ export default function ContactSection() {
     <div className="bg-gray-50 py-8 sm:py-12 px-4 font-['Bricolage_Grotesque','ui-sans-serif']">
       <div className="max-w-6xl mx-auto">
 
-        {/* OWNER IMAGE */}
-        <div className="flex justify-center mb-6 sm:mb-8">
-          <img
-            src={Owner}
-            alt="Owner"
-            className="w-48 h-48 sm:w-56 sm:h-56 rounded-full object-cover shadow-md border-4 border-yellow-500 ring-2 ring-yellow-300"
-          />
+        {/* OWNER IMAGE WITH ABOUT TEXT */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center mb-8 sm:mb-12">
+          {/* Left side - Owner photo with circular text */}
+          <div className="flex justify-center lg:justify-start">
+            <div className="relative w-64 h-64 sm:w-72 sm:h-72">
+              {/* Circular text */}
+              <svg className="absolute inset-0 w-full h-full" viewBox="0 0 200 200">
+                <defs>
+                  <path
+                    id="circlePath"
+                    d="M 100, 100 m -80, 0 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0"
+                  />
+                </defs>
+                <text className="text-lg sm:text-xl font-bold fill-yellow-600" letterSpacing="6">
+                  <textPath href="#circlePath" startOffset="0%">
+                    KARTIKEYA TRAVELS
+                  </textPath>
+                </text>
+              </svg>
+              
+              {/* Owner Image */}
+              <img
+                src={Owner}
+                alt="Owner"
+                className="absolute inset-0 m-auto w-40 h-40 sm:w-48 sm:h-48 rounded-full object-cover shadow-md border-4 border-yellow-500 ring-2 ring-yellow-300"
+              />
+            </div>
+          </div>
+
+          {/* Right side - About text */}
+          <div className="space-y-3 sm:space-y-4 text-gray-800 leading-relaxed">
+            <p className="text-sm sm:text-base lg:text-lg">
+              At <span className="font-semibold">Kartikeya Travels</span>, your comfort and convenience are our priority. We provide dependable intercity taxi services across South India – connecting cities, towns, and people with safety and style. Our fleet of clean, well-maintained cars and professional drivers ensures you enjoy every mile of your journey, whether it's a business trip, a weekend getaway, or an airport transfer.
+            </p>
+            <p className="text-sm sm:text-base lg:text-lg">
+              Travel made simple, safe, and affordable – that's our promise at Kartikeya Travels. We're your trusted travel companion across Andhra Pradesh and Telangana. From one-way rides to round trips, our experienced drivers and comfortable vehicles make every journey smooth and stress-free.
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
